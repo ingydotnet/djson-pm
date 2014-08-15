@@ -1,4 +1,11 @@
 ---
+version: 0.0.2
+date:    Fri Aug 15 10:36:27 PDT 2014
+changes:
+- Switch to Zilla::Dist
+- Update everything
+- Decommission in favor of JSONY, in doc and meta
+---
 version: 0.0.1
 date:    Wed Sep 12 17:53:19 PDT 2012
 changes:
