@@ -1,0 +1,11 @@
+Changes
+lib/DJSON.pm
+Makefile.PL
+MANIFEST			This list of files
+README.md
+t/decode.t
+t/edge.tml
+t/fail.t
+t/json.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
