@@ -1,7 +1,7 @@
 =meta: 0.0.1
 
 name: DJSON
-version: 0.0.4
+version: 0.0.5
 abstract: Decommisioned. Use JSONY.pm instead.
 homepage: http://jsony.org
 

@@ -1,6 +1,6 @@
 use strict; use warnings;
 package DJSON;
-our $VERSION = '0.0.4';
+our $VERSION = '0.0.5';
 
 use Pegex;
 
