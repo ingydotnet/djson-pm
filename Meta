@@ -1,19 +1,25 @@
-=meta: 0.0.1
+=meta: 0.0.2
 
 name: DJSON
-version: 0.0.5
+version: 0.0.6
 abstract: Decommisioned. Use JSONY.pm instead.
 homepage: http://jsony.org
-
+language: perl
 license: perl
-copyright: 2011-2014. Ingy döt Net.
+copyright: 2011-2014
+
 author:
   name: Ingy döt Net
   email: ingy@cpan.org
+  homepage: http://ingy.net
   github: ingydotnet
   twitter: ingydotnet
   freenode: ingy
-  homepage: http://ingy.net
+
+devel:
+  git: https://github.com/ingydotnet/djson-pm
+  bug: https://github.com/ingydotnet/djson-pm/issues
+  irc: irc.freenode.net#jsony
 
 requires:
   perl: 5.8.1
@@ -25,17 +31,10 @@ test:
     JSON: 2.90
     YAML: 0.90
 
-devel:
-  git: https://github.com/ingydotnet/djson-pm
-  bug: https://github.com/ingydotnet/djson-pm/issues
-  irc: irc.freenode.net#jsony
-
-=cpan:
+=zild:
   include_testml: 1
 
 =travis:
-  type: perl
-  irc: irc.freenode.net#jsony
   test:
     requires:
       TestML: 0
